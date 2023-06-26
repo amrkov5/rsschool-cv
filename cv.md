@@ -107,7 +107,7 @@ Achievements:
 - Protection of Financial messaging system between the Bank and Central Bank has been totally reworked, protection level has been increased
 ---
 ## Education and courses
-### Saint-Petersburg State university of economics.
+- ### Saint-Petersburg State university of economics.
 2009-2014. Information security specialist.
 
 - **Certified Ethical Hacker v11 2019, Eureca.**
