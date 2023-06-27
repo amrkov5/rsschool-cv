@@ -1,7 +1,7 @@
 # **Anton Markov**
 ## Contacts:
 - Email: *amrkov5@gmail.com*
-- Discord: *whsspb*
+- Discord: *Anton Markov(@amrkov5)*
 ---
 ## **Junior Front-end software engineer**
 
