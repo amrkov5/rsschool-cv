@@ -47,3 +47,130 @@
 .nav__link:hover::after {
     width: 100%;
 }
+.main {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    min-height: calc(100vh - 100px);
+    /* background-color: blue; */
+}
+.side-section {
+    background-color: #0f3c61;
+    /* padding: 20px; */
+}
+.side-photo {
+    margin: 0;
+    width: 100%;
+    height: min-content;
+}
+.side-photo img {
+    width: 100%;
+    object-fit: cover;
+}
+.side-container {
+    margin: 40px 20px;
+}
+.side__h {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    color: #e2c292;
+    
+}
+.side__h::before {
+    position: absolute;
+    left:0;
+    bottom: 1;
+    content: "\2771";
+}
+.side__text {
+    padding-left: 25px;
+    color: aliceblue;
+    position: relative;
+}
+.side__text a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.side__text a:hover {
+    text-shadow: 0 0 5px black;
+    transition: 0.2 ease-in-out;
+}
+.contacts-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.contacts-list .side__text {
+    margin: 10px 0;
+}
+.email::before {
+    content: "\2709";
+    position: absolute;
+    left: 0;
+}
+.discord::before {
+    content: url("./assets/img/icons/discord-alt-svgrepo-com.svg");
+    position: absolute;
+    left: 0;
+}
+.address {
+    font-style: normal;
+}
+.address::before {
+    content: url("./assets/img/icons/location-2950.svg");
+    position: absolute;
+    left: 0;
+}
+.skill-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.skill__items {
+    margin: 7px 0;
+}
+.html::before {
+    content: url("./assets/img/icons/html5.svg");
+    position: absolute;
+    left: 0;
+}
+.css::before {
+    content: url("./assets/img/icons/css.svg");
+    position: absolute;
+    left: 0;
+}
+.js::before {
+    content: url("./assets/img/icons/js.svg");
+    position: absolute;
+    left: 0;
+}
+.git::before {
+    content: url("./assets/img/icons/git-svgrepo-com.svg");
+    position: absolute;
+    left: 0;
+}
+.vsc::before {
+    content: url("./assets/img/icons/logo-microsoft-vs-code-svgrepo-com.svg");
+    position: absolute;
+    left: 0;
+}
+.cisco::before {
+    content: url("./assets/img/icons/cisco.svg");
+    position: absolute;
+    left: 0;
+}
+.iso::before {
+    content: url("./assets/img/icons/iso.svg");
+    position: absolute;
+    left: 0;
+}
+.lang-list {
+    padding: 0 0 0 20px;
+    margin-top: 10px;
+}
+.lang-list .side__text {
+    padding: 0;
+}
+
+.main-section {
+    background-color: #ebebeb;
+}
