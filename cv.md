@@ -123,6 +123,6 @@ Apr 2021 - Mar 2025
 - **RS-School #Stage0 course self-study.**
 Feb-2023 - May 2023
 ---
-## Languages
+## Language
 - Russian - native
 - English - advanced
