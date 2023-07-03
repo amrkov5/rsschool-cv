@@ -6,6 +6,9 @@
     max-width: 1280px;
     margin: 0 auto;
     box-shadow: 0 0 3px black;
+    font-family: Cabin, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 23px;
 }
 .header {
     display: flex;
@@ -51,11 +54,9 @@
     display: grid;
     grid-template-columns: 400px 1fr;
     min-height: calc(100vh - 100px);
-    /* background-color: blue; */
 }
 .side-section {
     background-color: #0f3c61;
-    /* padding: 20px; */
 }
 .side-photo {
     margin: 0;
@@ -73,6 +74,7 @@
     position: relative;
     padding-left: 20px;
     margin-bottom: 0px;
+    font-weight: 700;
     color: #e2c292;
     
 }
@@ -173,4 +175,60 @@
 
 .main-section {
     background-color: #ebebeb;
+    color: #29313a;
+    padding: 0 35px 0 80px;
+}
+.h1 {
+    margin: 80px 0 0 0;
+    font-size: 70px;
+    font-weight: 700;
+}
+.position__text {
+    margin: 30px 0 80px 0;
+    font-size: 40px;
+}
+.main__h {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 23px;
+    font-weight: 700;
+}
+.main__h::before {
+    position: absolute;
+    left:0;
+    bottom: 1;
+    content: "\2771";
+}
+.edu-list {
+    padding-left: 43px;
+}
+.edu__element:not(:first-child) {
+    margin-top: 10px;
+}
+.exp-container {
+    margin-left: 25px;
+    margin-top: 23px;
+}
+.exp__h4 {
+    margin: 0;
+}
+.exp-container p {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+}
+.exp-list {
+    padding-left: 20px;
+    margin: 10px 0;
+
+}
+.exp-list span{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+@media screen and (max-width:1000px){
+    .main-section {
+        padding: 0 20px 0 40px;
+    }
 }
