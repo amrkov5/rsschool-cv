@@ -226,6 +226,11 @@
     font-weight: 700;
     font-size: 25px;
 }
+pre {
+    background-color: #91979e;
+    padding-left: 10px;
+    border-radius: 10px;
+}
 
 @media screen and (max-width:1000px){
     .main-section {

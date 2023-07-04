@@ -151,28 +151,28 @@
                     </ul>
                 </div>
             </div>
-            <div class="section-container" id="edu">
+            <div class="section-container" id="code">
                 <h2 class="main__h">Code example</h2>
                 <details>
                     <summary>Custom Array.map()</summary>
                     <pre>
                         <code>
-                            Array.prototype.map = function(foo,thisArg = 0) {
-                                const arr = [];
-                                let that = this;
-                                let callback = foo;
-                                if(thisArg) {
-                                    callback = foo.bind(thisArg);
-                                };
-                                for (let i=0; i&ltthat.length; i++) {
-                                    if(!(i in that)) {
-                                        arr.push(that[i]);
-                                    } else {
-                                        arr.push(callback(that[i],i,that));
-                                    };
-                                };
-                                return arr;
-                            }
+Array.prototype.map = function(foo,thisArg = 0) {
+    const arr = [];
+    let that = this;
+    let callback = foo;
+    if(thisArg) {
+        callback = foo.bind(thisArg);
+    };
+    for (let i=0; i&ltthat.length; i++) {
+        if(!(i in that)) {
+            arr.push(that[i]);
+        } else {
+            arr.push(callback(that[i],i,that));
+        };
+    };
+    return arr;
+}
                         </code>
                     </pre>
                 </details>
