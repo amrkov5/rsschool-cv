@@ -243,7 +243,6 @@ pre {
     background-color: #91979e;
     padding-left: 10px;
     border-radius: 10px;
-    overflow: auto;
     max-width: 100%;
 }
 pre code {
