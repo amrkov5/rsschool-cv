@@ -165,6 +165,16 @@
     position: absolute;
     left: 0;
 }
+.project__link {
+    text-decoration: none;
+    color: aliceblue;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.project__link:hover {
+    text-shadow: 0 0 5px black;
+    transition: 0.2 ease-in-out;
+}
 .lang-list {
     padding: 0 0 0 20px;
     margin-top: 10px;
@@ -222,7 +232,7 @@
 .exp__h4 {
     margin: 0;
 }
-.exp-container p {
+.position__name {
     font-weight: 700;
     font-size: 30px;
     margin: 0;
@@ -231,6 +241,11 @@
     padding-left: 20px;
     margin: 10px 0;
 
+}
+.list__name {
+    font-weight: 700;
+    font-size: 25px;
+    margin: 15px 0 0 0;
 }
 summary {
     cursor: pointer;
@@ -305,6 +320,12 @@ pre code {
     .side__text {
         color: #29313a;
     }
+    .project__link {
+        color: #29313a;
+    }
+    .project__link:hover {
+        text-shadow: 0 0 5px #91979e;
+    }
     .side__text a {
         color: #29313a;
     }
@@ -319,39 +340,39 @@ pre code {
     }
     .discord::before {
         content: url("./assets/img/icons/gray/discord-alt-svgrepo-com.svg");
-        top: 4px;
+        top: 2px;
     }
     .address::before {
         content: url("./assets/img/icons/gray/location-2950.svg");
-        top: 4px;
+        /* top: 2px; */
     }
     .html::before {
         content: url("./assets/img/icons/gray/html5.svg");
-        top: 4px;
+        /* top: 2px; */
     }
     .css::before {
         content: url("./assets/img/icons/gray/css.svg");
-        top: 4px;
+        /* top: 4px; */
     }
     .js::before {
         content: url("./assets/img/icons/gray/js.svg");
-        top: 4px;
+        /* top: 4px; */
     }
     .git::before {
         content: url("./assets/img/icons/gray/git-svgrepo-com.svg");
-        top: 4px;
+        /* top: 4px; */
     }
     .vsc::before {
         content: url("./assets/img/icons/gray/logo-microsoft-vs-code-svgrepo-com.svg");
-        top: 4px;
+        /* top: 4px; */
     }
     .cisco::before {
         content: url("./assets/img/icons/gray/cisco.svg");
-        top: 4px;
+        /* top: 4px; */
     }
     .iso::before {
         content: url("./assets/img/icons/gray/iso.svg");
-        top: 4px;
+        /* top: 4px; */
     }
 }
 @media screen and (max-width: 380px) {
