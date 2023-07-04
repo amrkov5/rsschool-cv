@@ -176,7 +176,7 @@
 .main-section {
     background-color: #ebebeb;
     color: #29313a;
-    padding: 0 35px 0 80px;
+    padding: 0 35px 35px 80px;
 }
 .h1 {
     margin: 80px 0 0 0;
@@ -236,13 +236,35 @@
     font-weight: 700;
     font-size: 25px;
 }
+summary {
+    cursor: pointer;
+}
 pre {
     background-color: #91979e;
     padding-left: 10px;
     border-radius: 10px;
+    overflow: auto;
+    max-width: 100%;
 }
 pre code {
     font-size: 15px;
+    white-space: pre-wrap;
+}
+.footer {
+    display: flex;
+    padding: 0 50px 0 50px;
+    min-height:100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f3c61;
+}
+.footer p {
+    color: aliceblue;
+    font-weight: 700;
+}
+.logo {
+    width: 90px;
+    height:auto;
 }
 
 @media screen and (max-width:1000px){
@@ -336,4 +358,12 @@ pre code {
         content: url("./assets/img/icons/gray/iso.svg");
         top: 4px;
     }
+}
+@media screen and (max-width: 380px) {
+    .footer {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
 }
