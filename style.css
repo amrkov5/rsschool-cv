@@ -187,6 +187,15 @@
     margin: 30px 0 80px 0;
     font-size: 40px;
 }
+.main-photo {
+    display: none;
+    max-width: 780px;
+    height: min-content;
+}
+.main-photo img {
+    width: 100%;
+    object-fit: cover;
+}
 .main__h {
     position: relative;
     padding-left: 20px;
@@ -196,6 +205,7 @@
 .main__h::before {
     position: absolute;
     left:0;
+    top: 0;
     bottom: 1;
     content: "\2771";
 }
@@ -231,9 +241,99 @@ pre {
     padding-left: 10px;
     border-radius: 10px;
 }
+pre code {
+    font-size: 15px;
+}
 
 @media screen and (max-width:1000px){
     .main-section {
         padding: 0 20px 0 40px;
+    }
+}
+@media screen and (max-width: 900px){
+    .main {
+        grid-template-columns: 1fr 1.5fr;
+    }
+}
+@media screen and (max-width: 780px){
+    .main {
+        grid-template-columns: 1fr;
+    }
+    .side-section {
+        order: 1;
+    }
+    .main-section {
+        padding: 0;
+    }
+    .nav {
+        display: none;
+    }
+    .h1 {
+        text-align: center;
+        margin: 80px 20px 0 20px;
+    }
+    .position__text {
+        text-align: center;
+    }
+    .main-photo {
+        display: block;
+        margin: 0;
+    }
+    .side-section {
+        background-color: #ebebeb;
+    }
+    .side-container .side__h {
+        color: #29313a;
+    }
+    .side__text {
+        color: #29313a;
+    }
+    .side__text a {
+        color: #29313a;
+    }
+    .side__text a:hover {
+        text-shadow: 0 0 5px #91979e;
+    }
+    .side-photo {
+        display: none;
+    }
+    .section-container {
+        margin: 0 20px 0 20px;
+    }
+    .discord::before {
+        content: url("./assets/img/icons/gray/discord-alt-svgrepo-com.svg");
+        top: 4px;
+    }
+    .address::before {
+        content: url("./assets/img/icons/gray/location-2950.svg");
+        top: 4px;
+    }
+    .html::before {
+        content: url("./assets/img/icons/gray/html5.svg");
+        top: 4px;
+    }
+    .css::before {
+        content: url("./assets/img/icons/gray/css.svg");
+        top: 4px;
+    }
+    .js::before {
+        content: url("./assets/img/icons/gray/js.svg");
+        top: 4px;
+    }
+    .git::before {
+        content: url("./assets/img/icons/gray/git-svgrepo-com.svg");
+        top: 4px;
+    }
+    .vsc::before {
+        content: url("./assets/img/icons/gray/logo-microsoft-vs-code-svgrepo-com.svg");
+        top: 4px;
+    }
+    .cisco::before {
+        content: url("./assets/img/icons/gray/cisco.svg");
+        top: 4px;
+    }
+    .iso::before {
+        content: url("./assets/img/icons/gray/iso.svg");
+        top: 4px;
     }
 }
