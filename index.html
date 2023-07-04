@@ -168,7 +168,7 @@ Array.prototype.map = function(foo,thisArg = 0) {
     if(thisArg) {
         callback = foo.bind(thisArg);
     };
-    for (let i=0; i&ltthat.length; i++) {
+    for (let i=0; i&lt;that.length; i++) {
         if(!(i in that)) {
             arr.push(that[i]);
         } else {
